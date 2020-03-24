@@ -1,12 +1,62 @@
-#btn1 {
 
-}
 #def1 {
   display: none;
 }
 #def2 {
   display: none;
 }
+#def3 {
+  display: none;
+}
+#def4 {
+  display: none;
+}
+#def5 {
+  display: none;
+}
+#def6 {
+  display: none;
+}
+#def7 {
+  display: none;
+}
+#def8 {
+  display: none;
+}
+#def9 {
+  display: none;
+}
+#def10 {
+  display: none;
+}
+#def11 {
+  display: none;
+}
+#def12 {
+  display: none;
+}
+#def13 {
+  display: none;
+}
+#def14 {
+  display: none;
+}
+#def15 {
+  display: none;
+}
+#def16 {
+  display: none;
+}
+#def17 {
+  display: none;
+}
+#def18 {
+  display: none;
+}
+#def19 {
+  display: none;
+}
+
 #click1 {
   cursor: pointer;
 }
@@ -23,5 +73,23 @@
   cursor: pointer;
 }
 #click3:hover {
+  text-decoration: underline;
+}
+#click4 {
+  cursor: pointer;
+}
+#click4:hover {
+  text-decoration: underline;
+}
+#click5 {
+  cursor: pointer;
+}
+#click5:hover {
+  text-decoration: underline;
+}
+#click6 {
+  cursor: pointer;
+}
+#click6:hover {
   text-decoration: underline;
 }

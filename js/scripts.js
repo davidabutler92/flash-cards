@@ -4,7 +4,6 @@ $(document).ready(function() {
     $("#def1").fadeToggle();
     $("#btn1").toggle();
   });
-  
   $("#click1").click(function() {
     $("#btn1").fadeToggle();;
     $("#def1").toggle();
@@ -14,7 +13,6 @@ $(document).ready(function() {
     $("#def2").fadeToggle();
     $("#btn2").toggle();
   });
-
   $("#click2").click(function() {
     $("#btn2").fadeToggle();
     $("#def2").toggle();
@@ -22,21 +20,29 @@ $(document).ready(function() {
 
   $("button#variables").click(function() {
     $("#def3").fadeToggle();
-    $("#btn3").Toggle();
+    $("#btn3").toggle();
   });
-  
   $("#click3").click(function() {
     $("#btn3").fadeToggle();
     $("#def3").toggle();
   });
+
   $("button#varnc").click(function() {
+    $("#def4").fadeToggle();
+    $("#btn4").toggle();
+  });
+  $("#click4").click(function() {
     $("#btn4").fadeToggle();
-    $("def4").fadeToggle()
+    $("#def4").toggle();
   });
 
   $("button#functions").click(function() {
-    $("btn5").removeClass();
-    $("def5").addClass();
+    $("#def5").fadeToggle();
+    $("#btn5").toggle();
+  });
+  $("#click5").click(function() {
+    $("#btn5").fadeToggle();
+    $("#def5").toggle();
   });
   
   $("button#methods").click(function() {
