@@ -11,15 +11,24 @@ $(document).ready(function() {
   });
 
   $("button#operators").click(function() {
-    $("#btn2").fadeToggle();
     $("#def2").fadeToggle();
+    $("#btn2").toggle();
+  });
+
+  $("#click2").click(function() {
+    $("#btn2").fadeToggle();
+    $("#def2").toggle();
   });
 
   $("button#variables").click(function() {
-    $("#btn3").fadeToggle();
     $("#def3").fadeToggle();
+    $("#btn3").Toggle();
   });
   
+  $("#click3").click(function() {
+    $("#btn3").fadeToggle();
+    $("#def3").toggle();
+  });
   $("button#varnc").click(function() {
     $("#btn4").fadeToggle();
     $("def4").fadeToggle()

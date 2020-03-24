@@ -13,3 +13,15 @@
 #click1:hover {
   text-decoration: underline;
 }
+#click2 {
+  cursor: pointer;
+}
+#click2:hover {
+  text-decoration: underline;
+}
+#click3 {
+  cursor: pointer;
+}
+#click3:hover {
+  text-decoration: underline;
+}
