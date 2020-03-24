@@ -46,78 +46,126 @@ $(document).ready(function() {
   });
   
   $("button#methods").click(function() {
-    $("btn6").removeClass();
-    $("def6").addClass()
+    $("#def6").fadeToggle();
+    $("#btn6").toggle()
   });
-  
+  $("#click6").click(function() {
+    $("#btn6").fadeToggle();
+    $("#def6").toggle();
+  });
+
   $("button#arguments").click(function() {
-    $("btn7").removeClass();
-    $("def7").addClass();
+    $("#def7").fadeToggle();
+    $("#btn7").toggle();
+  });
+  $("#click7").click(function() {
+    $("#btn7").fadeToggle();
+    $("#def7").toggle();
   });
 
   $("button#parameters").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card7")
+    $("#def8").fadeToggle();
+    $("#btn8").toggle();
+  });
+  $("#click8").click(function() {
+    $("#btn8").fadeToggle();
+    $("#def8").toggle();
   });
 
   $("button#return").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card8");
+    $("#def9").fadeToggle();
+    $("#btn9").toggle();
+  });
+  $("#click9").click(function() {
+    $("#btn9").fadeToggle();
+    $("#def9").toggle();
   });
   
   $("button#chaining").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card9")
+    $("#def10").fadeToggle();
+    $("#btn10").toggle()
+  });
+  $("#click10").click(function() {
+    $("#btn10").fadeToggle();
+    $("#def10").toggle();
   });
 
   $("button#strings").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card10");
+    $("#def11").fadeToggle();
+    $("#body").toggle();
+  });
+  $("#click10").click(function() {
+    $("#btn10").fadeToggle();
+    $("#def10").toggle();
   });
   
   $("button#booleans").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card11")
+    $("#def11").fadeToggle();
+    $("#btn11").toggle()
+  });
+  $("#click11").click(function() {
+    $("#btn11").fadeToggle();
+    $("#def11").toggle();
   });
   
   $("button#undefined").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card12");
+    $("#def12").fadeToggle();
+    $("#btn12").toggle();
+  });
+  $("#click12").click(function() {
+    $("#btn12").fadeToggle();
+    $("#def12").toggle();
   });
 
   $("button#nan").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card13")
+    $("#def13").fadeToggle();
+    $("#btn13").toggle()
+  });
+  $("#click13").click(function() {
+    $("#btn13").fadeToggle();
+    $("#def13").toggle();
   });
 
   $("button#escape").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card14");
+    $("#def14").fadeToggle();
+    $("#btn14").toggle();
+  });
+  $("#click14").click(function() {
+    $("#btn14").fadeToggle();
+    $("#def14").toggle();
   });
   
   $("button#alert").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card15")
+    $("#def15").fadeToggle();
+    $("#btn15").toggle()
+  });
+  $("#click15").click(function() {
+    $("#btn15").fadeToggle();
+    $("#def15").toggle();
   });
 
   $("button#comments").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card16");
+    $("#def16").fadeToggle();
+    $("#btn16").toggle();
+  });
+  $("#click16").click(function() {
+    $("#btn16").fadeToggle();
+    $("#def16").toggle();
   });
   
   $("button#jQuery").click(function() {
     $("body").removeClass();
-    $("body").addClass("card17")
+    $("body").addClass()
   });
   
   $("button#attributes").click(function() {
     $("body").removeClass();
-    $("body").addClass("card18");
+    $("body").addClass();
   });
   
   $("button#attributes").click(function() {
     $("body").removeClass();
-    $("body").addClass("card19");
+    $("body").addClass();
   });
   
 });
