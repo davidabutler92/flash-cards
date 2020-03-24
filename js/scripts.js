@@ -1,38 +1,43 @@
 $(document).ready(function() {
   
   $("button#javascript").click(function() {
-    $("#card1").fadeToggle();
     $("#def1").fadeToggle();
+    $("#btn1").toggle();
   });
   
+  $("#click1").click(function() {
+    $("#btn1").fadeToggle();;
+    $("#def1").toggle();
+  });
+
   $("button#operators").click(function() {
-    $("#card2").fadeToggle();
+    $("#btn2").fadeToggle();
     $("#def2").fadeToggle();
   });
 
   $("button#variables").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card3");
+    $("#btn3").fadeToggle();
+    $("#def3").fadeToggle();
   });
   
   $("button#varnc").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card3")
+    $("#btn4").fadeToggle();
+    $("def4").fadeToggle()
   });
 
   $("button#functions").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card4");
+    $("btn5").removeClass();
+    $("def5").addClass();
   });
   
   $("button#methods").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card5")
+    $("btn6").removeClass();
+    $("def6").addClass()
   });
   
   $("button#arguments").click(function() {
-    $("body").removeClass();
-    $("body").addClass("card6");
+    $("btn7").removeClass();
+    $("def7").addClass();
   });
 
   $("button#parameters").click(function() {
