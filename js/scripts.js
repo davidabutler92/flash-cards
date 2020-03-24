@@ -6,8 +6,8 @@ $(document).ready(function() {
   });
   
   $("button#operators").click(function() {
-    $("body").removeClass();
-    $("#card2").addClass("card2");
+    $("#card2").fadeToggle();
+    $("#def2").fadeToggle();
   });
 
   $("button#variables").click(function() {
