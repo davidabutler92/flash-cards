@@ -92,7 +92,7 @@ $(document).ready(function() {
 
   $("button#strings").click(function() {
     $("#def11").fadeToggle();
-    $("#body11").toggle();
+    $("#btn11").toggle();
   });
   $("#click11").click(function() {
     $("#btn11").fadeToggle();
@@ -137,7 +137,7 @@ $(document).ready(function() {
   
   $("button#alert").click(function() {
     $("#def16").fadeToggle();
-    $("#btn16").toggle()
+    $("#btn16").toggle();
   });
   $("#click16").click(function() {
     $("#btn16").fadeToggle();
