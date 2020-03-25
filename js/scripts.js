@@ -155,7 +155,7 @@ $(document).ready(function() {
   
   $("button#jQuery").click(function() {
     $("#def18").fadeToggle();
-    $("#btn18").toggle()
+    $("#btn18").toggle();
   });
   $("#click18").click(function() {
     $("#btn18").fadeToggle();
